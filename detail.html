@@ -1,15 +1,31 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Detail</title>
     </head>
     <body>
         <div>
-        <img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" height ="150" width="200"/>
+        <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\index.html"><img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" height ="150" width="200"/></a>
         <span><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_blank">Login</a></span>
         </div>
         <div>
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"/>
-            <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\payment.html">Book Now</a></div>
+            <div>
+                <form action="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\payment.html" autocomplete="off">
+                <label for="adults">Adults:</label>
+                <input type="number" name="adults" id="adults" min="1"/><br/>
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" required /><br/>
+                <label for="date">From Date:</label>
+                <input type="date" name="date" id="date" required/><br/>
+                <label for="date">To Date:</label>
+                <input type="date" name="date" id="date" required/><br/>
+                <label for="total">Total:</label>
+                <input type="text" readonly /><br/>
+                <input type="submit" value="Book Now"/>
+                </form>
+                
+            </div>
             <p><h2>Radisson Blu Hotel</h2></p>
             <p>RATING</p>
             <P>5 Star</P>
@@ -27,7 +43,7 @@
 
         <footer>
             <div>
-                <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html"target="_blank">Contact Us</a></div>
+                <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html">Contact Us</a></div>
             <div>
                 <span><a href="https://www.facebook.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" height="20" width="22"/></a></span>
                 <span><a href="https://www.instagram.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png" height="20" width="22"/></a></span>
