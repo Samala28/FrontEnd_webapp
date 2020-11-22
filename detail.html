@@ -7,14 +7,17 @@
     </head>
     <body>
 
-        <div>
-        <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\index.html" ><img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png"  class="logo"/></a>
+        <div id="header">
+        <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\index.html" ><img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" class="logo" /></a>
         <span><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_blank">Login</a></span>
         </div>
 
         <div>
+        <div class="content">   
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radisson"/>
-            <div>
+        </div>    
+            
+            <div class="booking">
                 <form action="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\payment.html" autocomplete="off">
                 <label for="adults">Adults:</label>
                 <input type="number" name="adults" id="adults" min="1" value="1"/><br/>
@@ -28,9 +31,10 @@
                 <input type="text" readonly /><br/>
                 <input type="submit" value="Book Now"/>
                 </form>
-                
             </div>
-            <p><h2>Radisson Blu Hotel</h2></p>
+            
+            <div class="description">
+            <h2>Radisson Blu Hotel</h2>
             <p>RATING</p>
             <P>5 Star</P>
             <p>AMENITIES</p>
@@ -41,11 +45,12 @@
                 <li>Fitness center</li>
                 <li>Pool</li>
             </ul>
-            <div><h5>DESCRIPTION</h5></div>
+            <h5>DESCRIPTION</h5>
             <p>There are loads of things that make the Radisson Blu Hotel, Berlin a favorite for guests,  most notably the unbeatable location with a direct view of the Berliner Dom.</p>
         </div>
+        </div>
 
-        <footer>
+        <footer id="footer-color">
             
                 <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html">Contact Us</a></div>
             

@@ -1,4 +1,9 @@
+body{
+    margin: 0%;
+    background-color: #e0e0e0;
+}
 .logo{
+    
     height: 60px;
     width: 60px;
 }
@@ -9,4 +14,19 @@
 .footer{
     height: 20px;
     width: 22px;
+}
+#header{
+    background-color: rosybrown;
+}
+#footer-color{
+    background-color: rosybrown;
+}
+.content{
+    margin: 2% 4% 0%;
+}
+.booking{
+    margin: 0% 4% 1%;
+}
+.description{
+    margin: 1% 4% 2%;
 }

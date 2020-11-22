@@ -1,3 +1,6 @@
+body{
+    margin: 0%;
+}
 .logo{
     height: 60px;
     width: 60px;
@@ -9,4 +12,27 @@
 .footer{
     height: 20px;
     width: 22px;
+}
+#footer-color{
+    background-color: rosybrown;
+}
+#header{
+    background-color: rosybrown;
+}
+.content{
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    height: 20%;
+    background-color: rgb(132,136,139);
+}
+.information{
+    margin: 2%;
+}
+.tarrif{
+    margin: 2%;
+    border: 1px solid black;
+    padding: 1% 2%;
+    border-radius: 5px;
 }
