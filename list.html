@@ -4,28 +4,30 @@
         <meta charset=“utf-8”>
         <title>List</title>
         <link  href="styles/list.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
         <nav id="list-head">
         <div>
         <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\index.html"><img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" class="logo" /></a>
-        <span><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_self">Login</a></span>
+        <span ><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_self" class="login">Login</a></span>
         </div>
         </nav>
         <div >
-            <ul>
-                <li><a href="#list-view" >List View</a></li>
-                <li><a href="#map-view">Map View</a></li>
+            <ul class="list-view" style="text-align: center;font-weight: bold;" >
+                <a href="#list-view" style="text-decoration-line: none;color: black;margin: 2%;">List View</a>
+                <a href="#map-view" style="text-decoration-line: none;color: black;margin: 2%;">Map View</a>
             </ul>
         </div>
       
-    
+    <section>
         <div id="list-view">
         <div class="rad-background">
-            <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" class="radisson" /></a>
-            <h3><strong><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html">Radisson Blu Hotel</a></strong></h3>
-            <p><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html">5 Star</a></p>
-            <p><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html">New Delhi</a></p>
+            <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radisson" /></a>
+            <h3><strong><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html" style="text-decoration-line: none;color: black;">Radisson Blu Hotel</a></strong></h3>
+            <p><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html" style="text-decoration-line: none;color: black;">5 Star</a></p>
+            <p><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\detail.html" style="text-decoration-line: none;color: black;">New Delhi</a></p>
         </div>
             
         <div class="lalit-background">
@@ -34,28 +36,30 @@
             <p>4.5 Star</p>
             <p>New Delhi</p>
         </div>
-        <div class="taj-background">
+        <div class="taj-background" style="margin-bottom: 6%;">
             <span><img src="https://media-cdn.tripadvisor.com/media/photo-w/1b/4e/9b/11/exterior.jpg" id="taj"/></span>
             <h3>Taj Place</h3>
             <p>4.0 Star</p>
             <p>New Delhi</p>
         </div>
-
-            <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" id="map-view"/>
-            <P>MAP VIEW</h3>
+    </div>
+    </section>
+    <div class="map">
+        <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" id="map-view"/>
+        <P style="padding-bottom: 5%;">MAP VIEW</h3>
         </div>
-
+    
         <footer id="footer-color">
             
-                <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html"target="_blank">Contact Us</a></div>
+                <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html"target="_blank" id="contact">Contact Us</a></div>
             
-                <span>
+                <span id="social-media">
                 <a href="https://www.facebook.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="footer"/></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png" class="footer"/></a>
                 <a href="https://twitter.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png" class="footer"/></a>
                 </span>
             
-                <div>&copy;2020 ROOM SEARCH PVT.LTD.</div>
+                <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
            
         </footer>
     </body>

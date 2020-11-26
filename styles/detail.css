@@ -1,15 +1,17 @@
 body{
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'ubuntu',sans-serif;
 }
 .logo{
-    
     height: 60px;
     width: 60px;
+    vertical-align: middle;
 }
 #radisson{
     height: 500px;
     width: 500px;
+    margin-top: 5%;
 }
 .footer{
     height: 20px;
@@ -17,9 +19,28 @@ body{
 }
 #header{
     background-color: rosybrown;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+}
+.login{
+    float: right;
+    /* vertical-align: middle; */
+    color: black;
+    text-decoration-line: none;
+    margin: 1% 1% ;
 }
 #footer-color{
     background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    left: 0%; 
+    width: 100%;
+    text-align: center;
+   padding-top: 1%;
 }
 .content{
     margin: 2% 4% 0%;
@@ -29,4 +50,20 @@ body{
 }
 .description{
     margin: 1% 4% 2%;
+    margin-bottom: 6%;
+}
+.contact{
+   
+    /* vertical-align: middle; */
+    padding: 5px;
+    float: left;
+}
+#social-media{  
+    float: right; 
+  }
+  .copy{
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 10px;
+    padding-top: 2%;
 }

@@ -4,20 +4,21 @@
         <meta charset=“utf-8”>
         <title>Index</title>
         <link href="styles/index.css" rel="stylesheet" />
-    
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     
     <body>
         <nav id="index-head">
         <div>
-        <img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" class="logo" height ="150" width="200"/>
-        <span><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_self">Login</a></span>
+        <img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" class="logo" />
+        <span ><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_self" id="login">Login</a></span>
         </div>
         </nav>
         
-        
+        <section>
             <div class="search">
-                <input type="city" name="city" placeholder="City"/>
+                <input type="text" id="search-bar" placeholder="City" />
             </div>
             
             <div id="cities">
@@ -28,24 +29,22 @@
             <img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="city" />
             </span>
             </div>
-            <div><a href="" >View more&gt;&gt;</a></div> 
-        
+            <div class="view"><a href="" style="color: black;text-decoration-line: none;">View more&gt;&gt;</a></div> 
+        </section>
         
 
-        <footer class="footer-color">
+        <footer class="footer-content">
         
-            <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html" target="_self">Contact Us</a></div>
+            <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html" id="contact">Contact Us</a></div>
+            
         <div>
-            <span>
+            <span id="social-media">
             <a href="https://www.facebook.com" target="_blank" ><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="footer" /></a>
             <a href="https://www.instagram.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png" class="footer" /></a>
             <a href="https://twitter.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png" class="footer" /></a>
             </span>
-        
-            <div>&copy;2020 ROOM SEARCH PVT.LTD.</div>
-            
         </div>
-        
+            <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
     </footer>
     </body>
 </html>

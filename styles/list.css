@@ -1,12 +1,20 @@
 body{
     margin: 0%;
     background-color: #e0e0e0;
+    font-family: 'ubuntu',sans-serif;
 }
 .logo{
     height: 60px;
     width: 60px;
+    vertical-align: middle;
 }
-.radisson{
+.login{ 
+    float: right;
+    text-decoration-line: none;
+    color: black;
+    padding: 20px;
+}
+#radisson{
 height: 200px;
 width: 250px;
 
@@ -27,22 +35,68 @@ width: 250px;
 }
 #list-head{
     background-color: rosybrown;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
 }
 #footer-color{
     background-color: rosybrown;
+    position: fixed;
+    bottom: 0;
+    right: 0%;
+    left: 0%; 
+    width: 100%;
+    text-align: center;
+   padding-top: 1%;
 }
 .rad-background{
     width: 40%;
     background-color: rgb(132,136,139);
     margin: 2%;
+    display: inline-block;
 }
 .lalit-background{
     width: 40%;
     background-color: rgb(132,136,139);
     margin: 2%;
+    display: inline-block;
 }
 .taj-background{
   width: 40%;
   background-color: rgb(132,136,139);
   margin: 2%;
+  display: inline-block;
 }
+.copy{
+    text-align: center;
+    vertical-align: bottom;
+    font-size: 10px;
+    padding-top: 2%;
+}
+#social-media{  
+    float: right; 
+  }
+#contact{
+    text-decoration-line: none;
+    color: black;
+    vertical-align: middle;
+    padding: 5px;
+    float: left;
+}
+section{
+    overflow-y: visible;
+    overflow-x: visible;
+    overflow: visible;
+}
+.list-view{
+    margin-top: 5% ;
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+}
+.map{
+    display: none;
+}
+
+
