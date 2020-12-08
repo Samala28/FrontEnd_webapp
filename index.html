@@ -9,8 +9,8 @@
     </head>
     
     <body>
-        <nav id="index-head">
-        <div>
+        <nav>
+        <div id="index-head">
         <img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" class="logo" />
         <span ><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_self" id="login">Login</a></span>
         </div>
@@ -18,33 +18,46 @@
         
         <section>
             <div class="search">
-                <input type="text" id="search-bar" placeholder="City" />
+                <input type="text" id="search-bar" placeholder="City" style="border:none;"/>
             </div>
             
-            <div id="cities">
-            <span>
-            <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\list.html"target="_self"><img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" class="city" /></a>
-            <img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg" class="city" />
-            <img src ="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg" class="city" />
-            <img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="city" />
-            </span>
-            </div>
+        <div id="cities">
+        <span >
+            <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\list.html"target="_self" ><img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/a2/new-delhi.jpg" class="city"/></a>
+            <!-- <p class="cityname">Delhi</p> -->
+        </span>
+        <span>
+            <span><img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fc/f0/goa.jpg"  class="city" /></span>
+            <!-- <span class="cityname">Goa</span> -->
+        </span>
+        <span>
+            <img src ="https://media-cdn.tripadvisor.com/media/photo-s/0f/98/f7/df/charminar.jpg"  class="city" />
+            <!-- <p class="cityname">Hyderabad</p> -->
+        </span>
+        <span>
+            <img src ="https://media-cdn.tripadvisor.com/media/photo-s/15/33/fe/ac/kolkata-calcutta.jpg" class="city" />   
+            <!-- <p class="cityname">Kolkata</p> -->
+        </span>
+        </div>
             <div class="view"><a href="" style="color: black;text-decoration-line: none;">View more&gt;&gt;</a></div> 
+        
         </section>
         
 
-        <footer class="footer-content">
-        
+        <footer >
+        <div class="footer-content">
             <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html" id="contact">Contact Us</a></div>
+        
+            <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
             
-        <div>
+        <div class="footer-flex">
             <span id="social-media">
             <a href="https://www.facebook.com" target="_blank" ><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="footer" /></a>
             <a href="https://www.instagram.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png" class="footer" /></a>
             <a href="https://twitter.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png" class="footer" /></a>
             </span>
         </div>
-            <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
+        </div>    
     </footer>
     </body>
 </html>

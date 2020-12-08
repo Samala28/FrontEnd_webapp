@@ -9,7 +9,7 @@ body{
     vertical-align: middle;
 }
 #radisson{
-    height: 500px;
+    height: 350px;
     width: 500px;
     margin-top: 5%;
 }
@@ -27,10 +27,11 @@ body{
 }
 .login{
     float: right;
-    /* vertical-align: middle; */
+    vertical-align: middle;
     color: black;
     text-decoration-line: none;
-    margin: 1% 1% ;
+    /* margin: 1% 1% ; */
+    padding: 20px;
 }
 #footer-color{
     background-color: rosybrown;
@@ -41,29 +42,88 @@ body{
     width: 100%;
     text-align: center;
    padding-top: 1%;
+   display: flex;
+   justify-content: space-between;
 }
 .content{
-    margin: 2% 4% 0%;
+    /* margin: 2% 4% 0%; */
+    /* padding: 2%; */
+    /* margin-left: 5%; */
+    display: flex;
+    justify-content: top;
 }
 .booking{
-    margin: 0% 4% 1%;
+    /* margin: 0% 4% 1%; */
+    /* margin-top: 8%; */
+    /* margin-left: 0%; */
+    text-align: left;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid grey;
+    padding-left: 4%;
+}
+.text-box{
+   /* height: 16px;
+   width: 60%;
+   margin-top: 10%;
+   margin-left: 2%;
+   float: right; */
+   display: flex;
+   flex-wrap: nowrap;
+  /* display: inline-block; */
+  float: right;
+  width: 60%;
+  vertical-align: middle;
+  margin-top: 8%;
+  margin-left: 2%;
+}
+.label{
+    float:left;
+}
+.book{
+    display: flex;
+   margin-left: 35%;
+    padding: 2%;
 }
 .description{
     margin: 1% 4% 2%;
     margin-bottom: 6%;
 }
 .contact{
-   
     /* vertical-align: middle; */
-    padding: 5px;
+    /* padding: 5px; */
+    text-decoration-line: none;
+    color: black;
+     vertical-align: middle;
+    padding-bottom: 15px;
+    padding-left: 15px;
     float: left;
 }
 #social-media{  
     float: right; 
+    padding-bottom: 15px;
+    padding-right: 15px;
   }
   .copy{
+    /* text-align: center;
+    vertical-align: bottom;
+    font-size: 10px;
+    padding-top: 2%; */
     text-align: center;
     vertical-align: bottom;
     font-size: 10px;
-    padding-top: 2%;
+    padding: 0.5%;
+}
+.hotel-booking{
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+    width:1300px;
+    border:2px solid grey;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top : 8%;
+    margin-bottom: 5%;
+    
 }

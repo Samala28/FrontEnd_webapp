@@ -2,6 +2,7 @@ body{
     margin: 0%;
     background-color: #e0e0e0;
     font-family: 'ubuntu',sans-serif;
+    margin-bottom: 15%;
 }
 .logo{
     height: 60px;
@@ -9,8 +10,8 @@ body{
     vertical-align: middle;
 }
 #radisson{
-    height: 500px;
-    width: 500px;
+    height: 200px;
+    width: 250px;
 }
 .footer{
     height: 20px;
@@ -23,7 +24,10 @@ body{
     right: 0%;
     left: 0%; 
     width: 100%;
-    text-align: center; 
+    text-align: center;
+   padding-top: 1%;
+   display: flex;
+   justify-content: space-between;
 }
 #header{
     background-color: rosybrown;
@@ -40,39 +44,63 @@ body{
     width: 50%;
     height: 20%;
     background-color: rgb(132,136,139);
+    /* display: inline-block; */
+    display: flex;
+    flex-wrap: nowrap;
 }
 .information{
     margin: 2%;
+    /* display: flex;
+    flex-direction: column; */
 }
 .tarrif{
     margin: 2%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 1% 2%;
     border-radius: 5px;
 }
 .login{
     float: right;
-    vertical-align: middle;
-    color: black;
     text-decoration-line: none;
-    margin: 1% 1% ;
+    color: black;
+    padding: 20px;
 }
 section{
-    margin-bottom: 7%;
+    margin-bottom: 7%;  
 }
 .contact{
-    /* vertical-align: middle; */
-    padding: 5px;
+    text-decoration-line: none;
+    color: black;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    padding-left: 10px;
     float: left;
 }
 .copy{
     text-align: center;
     vertical-align: bottom;
     font-size: 10px;
-    padding-top: 2%;
-    padding-bottom: 0%;
+    padding: 0.5%;
 }
 #social-media{  
     float: right; 
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-right: 10px;
   }
+  .hotel-name{
+    padding: 2%;
+}
+#payment{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    margin: 2%;
+    border-radius: 5px;
+    background-color: rosybrown;
+    margin-top: 5%;
+    padding: 10px;
+    height: 150px;
+    font-family: cursive;
+}

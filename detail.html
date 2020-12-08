@@ -14,28 +14,31 @@
         <span><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_blank" class="login">Login</a></span>
         </div>
 
-        <div>
+        <div class="hotel-booking">
         <div class="content">   
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radisson"/>
         </div>    
             
             <div class="booking">
                 <form action="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\payment.html" autocomplete="off">
-                <label for="adults">Adults:</label>
-                <input type="number" name="adults" id="adults" min="1" value="1"/><br/>
-                <label for="name">Name:</label>
-                <input type="text" name="name" id="name" required /><br/>
-                <label for="date">From Date:</label>
-                <input type="date" name="date" id="date" required/><br/>
-                <label for="date">To Date:</label>
-                <input type="date" name="date" id="date" required/><br/>
-                <label for="total">Total:</label>
-                <input type="text" readonly /><br/>
-                <input type="submit" value="Book Now"/>
+                <label for="adults" class="label">Adults:</label>
+                <input type="number" name="adults" id="adults" min="1" value="1" class="text-box" /><br/>
+                <label for="name" class="label">Name:</label>
+                <input type="text" name="name" id="name" required class="text-box" /><br/>
+                <label for="date" class="label">From Date:</label>
+                <input type="date" name="date" id="date" required class="text-box"/><br/>
+                <label for="date" class="label">To Date:</label>
+                <input type="date" name="date" id="date" required class="text-box"/><br/>
+                <label for="total" class="label">Total:</label>
+                <input type="text" readonly class="text-box" /><br/>
+                <div >
+                <input type="submit" value="Book Now" class="book"/>
+                </div>
                 </form>
             </div>
-            
-            <div class="description">
+        </div>
+        <div>
+        <div class="description">
             <h2>Radisson Blu Hotel</h2>
             <p>RATING</p>
             <P>5 Star</P>
@@ -55,15 +58,12 @@
         <footer id="footer-color">
             
                 <div class="contact"><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html" style="color: black;text-decoration-line: none;">Contact Us</a></div>
-            
+                <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
                 <span id="social-media">
                 <a href="https://www.facebook.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="footer" /></a>
                 <a href="https://www.instagram.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\instagram.png" class="footer" /></a>
                 <a href="https://twitter.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\twitter.png" class="footer" /></a>
                 </span>
-                
-                <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
-            
             
         </footer>        
     </body>

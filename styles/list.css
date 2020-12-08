@@ -22,7 +22,6 @@ width: 250px;
 #lalit{
     height: 200px;
     width: 250px;
-    
 }
 #taj{
     height: 200px;
@@ -39,6 +38,8 @@ width: 250px;
     top: 0%;
     left: 0%;
     right: 0%;
+    display: flex;
+    justify-content: space-between;
 }
 #footer-color{
     background-color: rosybrown;
@@ -49,39 +50,50 @@ width: 250px;
     width: 100%;
     text-align: center;
    padding-top: 1%;
+   display: flex;
+   justify-content: space-between;
 }
 .rad-background{
     width: 40%;
-    background-color: rgb(132,136,139);
+    background-color: rgba(132,136,139,0.2);
     margin: 2%;
     display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .lalit-background{
     width: 40%;
-    background-color: rgb(132,136,139);
+    background-color: rgba(132,136,139,0.2);
     margin: 2%;
     display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .taj-background{
   width: 40%;
-  background-color: rgb(132,136,139);
+  background-color: rgba(132,136,139,0.2);
   margin: 2%;
   display: inline-block;
+  display: flex;
+  flex-wrap: nowrap;
 }
 .copy{
     text-align: center;
     vertical-align: bottom;
     font-size: 10px;
-    padding-top: 2%;
+    padding: 0.5%;
 }
 #social-media{  
     float: right; 
+    padding-bottom: 10px;
+    padding-left: 10px;
   }
 #contact{
     text-decoration-line: none;
     color: black;
     vertical-align: middle;
-    padding: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     float: left;
 }
 section{
@@ -98,5 +110,13 @@ section{
 .map{
     display: none;
 }
-
-
+#hotel-view{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-bottom: 5%;
+   margin-left: 1%;
+}
+.hotel-name{
+    padding: 2%;
+}
