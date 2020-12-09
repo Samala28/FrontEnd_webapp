@@ -6,36 +6,83 @@
         <link href="styles/detail.css" rel="stylesheet">    
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
     </head>
     <body>
 
         <div id="header">
         <a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\index.html" ><img src = "D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\logo.png" class="logo" /></a>
-        <span><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_blank" class="login">Login</a></span>
-        </div>
+        <span ><a href ="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\login.html" target="_self" id="login"><button class="btn btn-light" data-toggle="modal" data-target="#loginModal" id="login-button" type="button" >LOGIN</button></a></span>
+        <!-- Modal -->
+     <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+       <div class="modal-dialog" role="document">
+           <div class="modal-content">
+               <div class="modal-header">
+                   <h5 class="modal-title" id="loginModalLabel">Please Login</h5>
+                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                       <span aria-hidden="true">&times;</span>
+                     </button>
+               </div>
+               <div class="modal-body">
+                   <form>
+                       <div>
+                       <div class="form-group">
+                           <label for="username">Username:</label>
+                           <input type="text" id="username" name="username" placeholder="Enter Username" required/>
+                           <br/>
+                       </div>
+                       <div class="form-group">
+                           <label for="password">Password:</label>
+                           <input type="password" name="password" id="password" placeholder="Enter Password" required/><br/>
+                       </div>  
+                       </div>
+                   </form>
+           </div>
+           <div class="modal-footer" style="justify-content: center;">
+               <div><button type="login" id="primary" class="btn btn-primary">Login</button></div>
+           </div>
+       </div>
+     </div>
+   </div>
+        
+    
+    </div>
 
         <div class="hotel-booking">
         <div class="content">   
             <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="radisson"/>
         </div>    
-            
+        
             <div class="booking">
-                <form action="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\payment.html" autocomplete="off">
-                <label for="adults" class="label">Adults:</label>
-                <input type="number" name="adults" id="adults" min="1" value="1" class="text-box" /><br/>
-                <label for="name" class="label">Name:</label>
-                <input type="text" name="name" id="name" required class="text-box" /><br/>
-                <label for="date" class="label">From Date:</label>
-                <input type="date" name="date" id="date" required class="text-box"/><br/>
-                <label for="date" class="label">To Date:</label>
-                <input type="date" name="date" id="date" required class="text-box"/><br/>
-                <label for="total" class="label">Total:</label>
-                <input type="text" readonly class="text-box" /><br/>
-                <div >
-                <input type="submit" value="Book Now" class="book"/>
-                </div>
-                </form>
+            <form action="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\payment.html" method="POST" autocomplete="off">
+            <div class="container">
+                <label for="adults" id="label">Adults:</label>
+                <input type="number" name="adults" id="adults" min="1" value="1" class="text-box" />
             </div>
+            <div class="container">
+                <label for="name" id="label">Name:</label>
+                <input type="text" name="name" id="name" required class="text-box" />
+            </div>
+            <div class="container">    
+                <label for="date" id="label">From Date:</label>
+                <input type="date" name="date" id="date" required class="text-box"/>
+            </div>
+            <div class="container">    
+                <label for="date" id="label">To Date:</label>
+                <input type="date" name="date" id="date" required class="text-box"/>
+            </div>
+            <div class="container">    
+                <label for="total" id="label">Total:</label>
+                <input type="text" readonly class="text-box" />
+            </div>    
+            <div class="book">
+                <input type="submit" class="btn btn-outline-success" value="Book Now"/>
+            </div>
+            </form>
+        </div>
+
         </div>
         <div>
         <div class="description">
@@ -57,7 +104,40 @@
 
         <footer id="footer-color">
             
-                <div class="contact"><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html" style="color: black;text-decoration-line: none;">Contact Us</a></div>
+            <div><a href="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\contact.html" id="contact"><button class="btn btn-primary" type="button" data-toggle="modal" data-target="#submitModal" id="submit-button">Contact Us</button></a></div>
+            <!-- Modal -->
+      <div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="loginModalLabel">Get in touch</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            
+                        <div class="form-contact">
+                            <p>Thank you for reaching out!!!</p>
+                            <p>Please enter your email and we will get back to you.</p>
+                            <form action="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\index.html" method="GET" autocomplete="off">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email id"/><br/>
+                        </form>
+                        </div>
+                        
+                   
+            </div>
+            <div class="modal-footer">
+                <div id="contact-btn">
+                    <button type="login" class="btn btn-primary">Submit</button>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+                
+                
                 <div class="copy">&copy;2020 ROOM SEARCH PVT.LTD.</div>
                 <span id="social-media">
                 <a href="https://www.facebook.com" target="_blank"><img src="D:\Upgrad Projects\Hotel_Booking_Website_Starter_Code\assests\images\facebook.png" class="footer" /></a>

@@ -23,7 +23,10 @@ body{
     top: 0%;
     left: 0%;
     right: 0%;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
 }
 .login{
     float: right;
@@ -56,48 +59,60 @@ body{
     /* margin: 0% 4% 1%; */
     /* margin-top: 8%; */
     /* margin-left: 0%; */
-    text-align: left;
+    /* text-align: left;
     line-height: 60px;
     display: flex;
     align-items: center;
     border-left: 1px solid grey;
+    padding-left: 4%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-left: 1px solid gray;
     padding-left: 4%;
+    
 }
 .text-box{
-   /* height: 16px;
-   width: 60%;
+   /* height: 25px;
+   width: 80%;
    margin-top: 10%;
    margin-left: 2%;
    float: right; */
    display: flex;
-   flex-wrap: nowrap;
+   flex-direction: row;
   /* display: inline-block; */
   float: right;
-  width: 60%;
   vertical-align: middle;
   margin-top: 8%;
   margin-left: 2%;
+  margin-bottom: 5%;
+  height: 25px;
+  width: 250px;
 }
-.label{
+#label{
     float:left;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
 }
 .book{
     display: flex;
-   margin-left: 35%;
-    padding: 2%;
+   justify-content: center;
+   align-items: center;
 }
 .description{
-    margin: 1% 4% 2%;
+    margin: 0% 4% 2%;
     margin-bottom: 6%;
 }
-.contact{
-    /* vertical-align: middle; */
-    /* padding: 5px; */
+#contact{
     text-decoration-line: none;
     color: black;
-     vertical-align: middle;
-    padding-bottom: 15px;
-    padding-left: 15px;
+    vertical-align: middle;
+    padding-bottom: 10px;
+    padding-left: 10px;
     float: left;
 }
 #social-media{  
@@ -125,5 +140,23 @@ body{
     margin-right: 2%;
     margin-top : 8%;
     margin-bottom: 5%;
-    
 }
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }

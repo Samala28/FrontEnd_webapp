@@ -2,7 +2,7 @@ body{
     margin: 0%;
     background-color: #e0e0e0;
     font-family: 'ubuntu',sans-serif;
-    margin-bottom: 15%;
+    padding-bottom: 15%;
 }
 .logo{
     height: 60px;
@@ -28,14 +28,25 @@ body{
    padding-top: 1%;
    display: flex;
    justify-content: space-between;
+   padding-bottom: 10px;
+   padding-left: 2%;
 }
 #header{
+    /* background-color: rosybrown;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%; */
     background-color: rosybrown;
     position: fixed;
     top: 0%;
     left: 0%;
     right: 0%;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
 }
 .content{
     margin: 0 auto;
@@ -52,6 +63,7 @@ body{
     margin: 2%;
     /* display: flex;
     flex-direction: column; */
+    padding-top: 20px;
 }
 .tarrif{
     margin: 2%;
@@ -104,3 +116,15 @@ section{
     height: 150px;
     font-family: cursive;
 }
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.form-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+ }
