@@ -159,6 +159,32 @@ section{
 .checked{
     color: orange;
 }
-#half{
- 
+@media only screen and (max-width:768px){
+    body{
+        width: auto;
+    }
+    #hotel-view{
+        display: flex;
+        vertical-align: middle;
+    }
+    .nav-item{
+        padding-top: 5%;
+    }
+    .rad-background{
+        width: 100%;
+    }
+    .lalit-background{
+        width: 100%;
+    }
+    .taj-background{
+        width: 100%;
+    }
+}
+@media only screen and(max-width:576px){
+    body{
+        width: 100%;
+    }
+    #radisson{
+       display: flex;
+    }
 }
